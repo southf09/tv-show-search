@@ -1,4 +1,6 @@
 const form = document.querySelector('#searchForm');
+const container = document.querySelector('.container');
+
 form.addEventListener('submit', async (e) => {
     e.preventDefault();
     const searchTerm = form.elements.query.value;
@@ -13,7 +15,7 @@ const showImages = (shows) => {
         if (result.show.image) {
             const img = document.createElement('img');
             img.src = result.show.image.medium;
-            document.body.append(img);
+            container.append(img);
         }
     }
 }
