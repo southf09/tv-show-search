@@ -22,3 +22,10 @@ body {
 .submit {
     width: 149px;
 }
+
+img {
+    display: grid;
+    height: 150px;
+    width: 105px;
+    justify-content: space-evenly;
+}
