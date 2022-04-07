@@ -4,7 +4,6 @@ body {
 }
 
 .page {
-    display: flex;
     width: 80%;
     height: 700px;
     justify-content: center;
@@ -16,6 +15,8 @@ body {
 
 .formBox {
     display: flex;
+    width: 100%;
+    align-items: center;
     flex-direction: column;
 }
 
@@ -23,9 +24,15 @@ body {
     width: 149px;
 }
 
-img {
+.container {
     display: grid;
+    margin-top: 1rem;
+    grid-template-columns: repeat(5, 150px);
+    grid-template-rows: auto;
+    justify-content: space-around;
+}
+img {
     height: 150px;
     width: 105px;
-    justify-content: space-evenly;
+    
 }
