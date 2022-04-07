@@ -1,0 +1,24 @@
+body {
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.page {
+    display: flex;
+    width: 80%;
+    height: 700px;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 1rem;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.formBox {
+    display: flex;
+    flex-direction: column;
+}
+
+.submit {
+    width: 149px;
+}
