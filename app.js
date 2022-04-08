@@ -11,6 +11,7 @@ form.addEventListener('submit', async (e) => {
 })
 
 const showImages = (shows) => {
+    container.innerHTML = '';
     for(let result of shows){
         if (result.show.image) {
             const img = document.createElement('img');
