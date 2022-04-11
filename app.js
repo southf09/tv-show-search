@@ -14,9 +14,15 @@ const showImages = (shows) => {
     container.innerHTML = '';
     for(let result of shows){
         if (result.show.image) {
+            const card = document.createElement('div');
             const img = document.createElement('img');
+            const score = document.createElement('div');
+            const rating = result.show.rating.average;
+            score.innerText = `Rating: ${rating}`
             img.src = result.show.image.medium;
-            container.append(img);
+            card.append(img);
+            card.append(score);
+            container.append(card);
         }
     }
 }
