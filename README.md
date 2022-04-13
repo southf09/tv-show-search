@@ -7,7 +7,8 @@ Features:
 -DOM Manipulation and events
 
 To add:
--CSS Styling & Fonts
+-CSS Styling & Fonts --- individual cards, hover effects, transition
+-Carousel?
 -Mobile functionality
 -Add data in addition to images, such as rating, year, etc.
 
