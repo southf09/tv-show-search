@@ -48,11 +48,11 @@ img {
     height: 213px;
     width: 150px;
     margin-bottom: 1.5rem;
-    position: relative;
+    transition: transform 250ms ease-out;
 }
 
 img:hover {
-    border: 1px solid white;
+    transform: scale(1.1);
     /* height: 250px;
     width: 165px; */
 }
