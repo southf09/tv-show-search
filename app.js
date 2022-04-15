@@ -18,7 +18,7 @@ const showImages = (shows) => {
             const img = document.createElement('img');
             const score = document.createElement('div');
             const rating = result.show.rating.average;
-            score.innerText = `Rating: ${rating}`
+            score.innerText = `Rating: ${rating}`;
             img.src = result.show.image.medium;
             card.append(img);
             card.append(score);
