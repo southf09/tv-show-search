@@ -6,6 +6,10 @@ Features:
 -Uses TV Maze API
 -DOM Manipulation and events
 
+Recently Added:
+-Frost effect for the container background
+-Image scaling on hover effect
+
 To add:
 -CSS Styling & Fonts --- individual cards, hover effects, transition
 -Carousel?
