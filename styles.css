@@ -54,6 +54,8 @@ h1 {
     align-items: center;
     font-family: 'Roboto', sans-serif;
     color: rgb(0, 0, 0, 0.6);
+    transition: transform 250ms ease-out;
+    padding-top: 0;
 }
 
 img {
@@ -61,10 +63,9 @@ img {
     width: 150px;
     margin-top: 1.5rem;
     margin-bottom: 0.7rem;
-    transition: transform 250ms ease-out;
 }
 
-img:hover {
+.container div:hover {
     transform: scale(1.1);
     box-shadow: 0 1px 12px rgba(0, 0, 0, 0.7);
 }
