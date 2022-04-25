@@ -23,6 +23,7 @@ body {
     width: 100%;
     align-items: center;
     flex-direction: column;
+    padding-bottom: 2rem;
 }
 
 
@@ -34,8 +35,20 @@ h1 {
     margin-top: 1rem;
 }
 
+.searchBar {
+    height: 30px;
+    width: 300px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    background-color: rgb(255, 255, 255, 0.5);
+    color: rgb(0, 0, 0, 0.8); 
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0, 0.6);
+}
 .submit {
-    width: 149px;
+    width: 151px;
+    margin-top: 5px;
 }
 
 .container {
