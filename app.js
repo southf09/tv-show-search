@@ -25,4 +25,4 @@ const showImages = (shows) => {
             container.append(card);
         }
     }
-}
+};
