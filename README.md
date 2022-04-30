@@ -12,8 +12,11 @@ Recently Added:
 -CSS Styling & Fonts --- individual cards, hover effects, transition
 
 To add:
+-Toggle between TV shows and Movies
 -What streaming services are these shows available on?
 -Carousel?
 -Mobile functionality
 -Add data in addition to images, such as rating, year, etc.
 
+To do:
+-Refactor code, functions are beginning to get a little bit cluttered
