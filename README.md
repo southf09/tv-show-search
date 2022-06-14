@@ -1,10 +1,10 @@
-How to use: 
--Simply enter any show into the search bar and the page will populate with relevant searched
+Welcome to my TV Show Search project! 
 
-Features:
--Search that adds the images of TV shows that fit the criteria
--Uses TV Maze API
--DOM Manipulation and events
+How to use: 
+-Simply enter any show into the search bar and press 'Enter' on your keyboard, or click the 'Search' button with you mouse. The page will populate with shows that contain the word(s) that you have submitted, along with their ratings.
+
+About:
+-This projects combines the use of an API (TV Maze) and DOM manipulation to populate your searches with TV show pictures and ratings that match your queries.
 
 Recently Added:
 -Frost effect for the container background
@@ -12,7 +12,7 @@ Recently Added:
 -CSS Styling & Fonts --- individual cards, hover effects, transition
 
 To add:
--Toggle between TV shows and Movies
+-Solution for 'null' ratings
 -What streaming services are these shows available on?
 -Carousel?
 -Mobile functionality
