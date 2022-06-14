@@ -21,8 +21,12 @@ const showImages = (shows) => {
             score.innerText = `Rating: ${rating}`;
             img.src = result.show.image.medium;
             card.append(img);
-            card.append(score);
-            container.append(card);
+            if(result.show.rating.average){
+                card.append(score);
+                container.append(card);
+            }
+            // card.append(score);
+            // container.append(card);
         }
     }
 };
