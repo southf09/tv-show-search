@@ -10,9 +10,9 @@ Recently Added:
 -Frost effect for the container background
 -Image scaling on hover effect
 -CSS Styling & Fonts --- individual cards, hover effects, transition
+-Solution for 'null' ratings
 
 To add:
--Solution for 'null' ratings
 -What streaming services are these shows available on?
 -Carousel?
 -Mobile functionality

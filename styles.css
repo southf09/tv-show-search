@@ -91,5 +91,9 @@ img {
 
 
 @media only screen and (max-width: 1000px) {
+    .page {
+        display: flex;
+        flex-wrap: wrap;
+    }
     
 }
