@@ -93,6 +93,7 @@ img {
 @media only screen and (max-width: 1000px) {
     .page {
         display: flex;
+        height: 2500px;
         /* flex-direction: column; */
         flex-wrap: wrap;
         text-align: center;
@@ -101,6 +102,7 @@ img {
     .container {
         display: flex;
         flex-direction: column;
+        height: 2000px;
     }
     
 }
