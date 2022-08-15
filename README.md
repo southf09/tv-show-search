@@ -11,11 +11,11 @@ Recently Added:
 -Image scaling on hover effect
 -CSS Styling & Fonts --- individual cards, hover effects, transition
 -Solution for 'null' ratings
+-Improved mobile view
 
 To add:
 -What streaming services are these shows available on?
 -Carousel?
--Mobile functionality
 -Add data in addition to images, such as rating, year, etc.
 
 To do:
