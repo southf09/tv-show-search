@@ -10,7 +10,6 @@ body {
     height: 800px;
     justify-content: center;
     margin: 0 auto;
-    /* padding-top: 1rem; */
     border: 1px solid rgb(255, 255, 255, 0.3);
     border-radius: 8px;
     background-color: rgb(255, 255, 255, 0.5);
@@ -93,8 +92,7 @@ img {
 @media only screen and (max-width: 1000px) {
     .page {
         display: flex;
-        height: 2500px;
-        /* flex-direction: column; */
+        min-width: 420px;
         flex-wrap: wrap;
         text-align: center;
     }
@@ -103,6 +101,10 @@ img {
         display: flex;
         flex-direction: column;
         height: 2000px;
+    
     }
     
+    .container div {
+        min-width: 0;
+    }
 }
