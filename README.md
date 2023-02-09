@@ -15,8 +15,8 @@ Recently Added:
 
 To add:
 -What streaming services are these shows available on?
--Carousel?
 -Add data in addition to images, such as rating, year, etc.
+-Add accessibility for those that need it
 
 To do:
 -Refactor code, functions are beginning to get a little bit cluttered
