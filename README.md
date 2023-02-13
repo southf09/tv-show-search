@@ -8,9 +8,7 @@ About:
 
 Recently Added:
 -Frost effect for the container background
--Image scaling on hover effect
--CSS Styling & Fonts --- individual cards, hover effects, transition
--Solution for 'null' ratings
+-Image scali3ll' ratings
 -Improved mobile view
 
 To add:
@@ -19,4 +17,5 @@ To add:
 -Add accessibility for those that need it
 
 To do:
--Refactor code, functions are beginning to get a little bit cluttered
+-Refactor code
+-Fix flexbox on mobile view and background for a cleaner UI
