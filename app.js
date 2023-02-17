@@ -34,8 +34,7 @@ const showImages = (shows) => {
                 card.append(score);
                 container.append(card);
             }
-            // card.append(score);
-            // container.append(card);
+    
         }
     }
 };
